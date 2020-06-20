@@ -1,0 +1,23 @@
+.a{
+	margin: 3% 18%;
+	background-color: white;
+	padding: 3% 5%;
+}
+h3{
+	text-align: center;
+}
+table{
+	width: 90%;
+}
+td{
+	text-align: center;
+}
+button.btn1{
+	padding: 1% 2%;
+	border-radius: 15%;
+	margin-left: 45%;
+}
+.btn1:hover{
+	background-color: #FF7878;
+	color: white;
+}

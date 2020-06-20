@@ -1,0 +1,109 @@
+@font-face{
+font-family:"SentyTEA-20190904";
+src:url(../font/SentyTEA-20190904.ttf);
+} 
+@font-face{
+font-family:"華康翩翩體";
+src:url(../font/華康翩翩體.otf);
+}
+body{
+background-image: url(../images/bgplanet.jpg);
+background-attachment: scroll;
+background-repeat: no-repeat;
+background-size: 100%;
+padding:0px;
+margin: 0px;
+}
+.planettop{
+position:absolute;
+animation-name:planettop;
+animation-duration:7s;
+animation-iteration-count:infinite;
+}
+@keyframes planettop{
+from{
+left:0%;
+}
+to{
+left:100%;
+}
+}
+img.a1{
+margin-left: 15%;
+margin-top: 5%;
+border-style: double;
+border-color: black;
+border-width: 5px;
+float: left;
+}
+table.a1{
+width: 30%;
+font-size: 100%;
+}
+img.a2{
+margin-left: 55%;
+margin-top: 3%;
+border-style: double;
+border-color: black;
+border-width: 5px;
+}
+.container{
+margin-top: 6%;
+margin-left:15%;
+}
+.hover-box {
+float: left;
+max-width: 40%;
+max-height: 40%;
+margin: auto;
+box-sizing: border-box;
+position:relative;
+}
+.hover-box .img-box {
+position: relative;
+overflow: hidden;
+}
+.hover-box .img-box img {
+margin: auto;
+transition: transform 0.5s;
+}
+.hover-box:hover .img-box img {
+transform: scale(1.3);
+}
+.hover-box .info-box {
+position: absolute;
+left: 5%;
+top: 5%;
+bottom:5%;
+right:5%;
+color:#fff;
+background:rgba(0,0,0,.6);
+text-align:left;
+transform:scaleY(0);
+transition:transform .5s;
+width: 90%;
+}
+.hover-box .info-box .info-content{
+position:absolute;
+top:50%;
+margin:0px 25%;
+}
+.hover-box:hover .info-box {
+transform:scaleY(1);
+}
+table.intro{
+width: 35%;
+background-color: white;
+margin-right: 15%;
+margin-top: 3%;
+max-height: 30%;
+padding-left: 8%;
+padding-top: 8%;
+padding-bottom: 3%;
+font-family:"華康翩翩體";
+font-size: 130%;
+}
+.img1{
+margin-right:3%;
+float: right;
+}

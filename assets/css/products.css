@@ -1,0 +1,64 @@
+@font-face{
+font-family:"SentyTEA-20190904";
+src:url(../font/SentyTEA-20190904.ttf);
+} 
+body{
+background-color: #fbf3de;
+}
+h2.title{
+text-align: center;
+font-family:"SentyTEA-20190904";
+margin-top: 2%;
+}
+h3.type{
+text-align: center;
+font-size: 140%;
+}
+.dropdown{
+	margin-left: 68%; 
+	margin-top: -3%;
+}
+.container {
+margin-left: 16%;
+}
+.hover-box {
+max-width: 26%;
+max-height: 26%;
+margin-left: 2%;
+margin-top: 2%;
+box-sizing: border-box;
+position:relative;
+float: left;
+}
+.hover-box .img-box {
+position: relative;
+overflow: hidden;
+}
+.hover-box .img-box img {
+margin-left: 3%;
+transition: transform 0.5s;
+}
+.hover-box:hover .img-box img {
+transform: scale(1.3);
+}
+.hover-box .info-box {
+position: absolute;
+left: 0%;
+top: 0%;
+bottom:0%;
+right:0%;
+color:#fff;
+background:rgba(0,0,0,.3);
+text-align:center;
+transform:scaleY(0);
+transition:transform .7s;
+}
+.hover-box .info-box .info-content{
+position:relative;
+top:50%;
+transform:translateY(-50%);
+padding:22%;
+}
+.hover-box:hover .info-box {
+transform:scaleY(1);
+}

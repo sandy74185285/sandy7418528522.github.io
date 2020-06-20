@@ -1,0 +1,9 @@
+.uppp{                        /*回到最上面*/
+position: fixed;
+right:15px;
+bottom:35px;
+width: 60px;
+}
+.uppp:hover{                 /*回到最上面特效*/
+width: 70px;
+}

@@ -1,0 +1,84 @@
+@font-face{
+font-family:"SentyTEA-20190904";
+src:url(../font/SentyTEA-20190904.ttf);
+} 
+@font-face{
+font-family:"華康翩翩體";
+src:url(../font/華康翩翩體.otf);
+}
+body{
+background-color: #BB5E00;
+margin:0px;
+padding: 0px;
+font-family:"SentyTEA-20190904";
+}
+h1{
+margin: 0px;
+padding: 1%;
+background-color: white;
+}
+a.menu{
+text-decoration: none;
+color: black;
+font-size: 120%;
+margin: 0% 1% 0% 5%;
+padding: 1%;
+}
+div.partA{
+background-color: white;
+padding-top: 1%;
+padding-bottom: 1%;
+font-family:"SentyTEA-20190904";
+}
+.menu:hover{
+background-color: #FFE8E8;
+}
+img.menu{
+margin-right: 3%;
+}
+input.search{
+border-radius: 20%;
+margin-left: 10%;
+width: 10%;
+}
+img.t1{
+float: left;
+position: relative;
+top: 50%;
+}
+img.t2{
+float: left;
+position: absolute;
+top: 50%;
+left: 0%;
+}
+img.t3{
+float: left;
+position: absolute;
+top: 75%;
+left: 35%;
+}
+img.t4{
+float: left;
+position: absolute;
+top: 100%;
+left: 49%;
+}
+marquee{
+position: absolute;
+top: 104%;
+left: 60%;
+width: 40%;
+}
+button.sale{
+font-size: 100%;
+padding:1%;
+position: absolute;
+top: 70%;
+left: 70%;
+transition-property: width, height;
+transition-duration: 1s;
+}
+.sale:hover{
+width: 12%;
+}

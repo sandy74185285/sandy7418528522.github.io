@@ -1,0 +1,264 @@
+
+@font-face{
+font-family:"SentyTEA-20190904";
+src:url(../font/SentyTEA-20190904.ttf);
+} 
+@font-face{
+font-family:"華康翩翩體";
+src:url(../font/華康翩翩體.otf);
+}
+body{
+background-image: url(images/bgplanet2.jpg);
+background-attachment: fixed;
+font-family:"華康翩翩體";
+margin:0px;
+padding: 0px;
+bottom: 0px;
+}
+.pics img {
+margin-left: 8%;
+position:absolute;
+-webkit-transition: opacity 1s ease-in-out;
+-moz-transition: opacity 1s ease-in-out;
+-o-transition: opacity 1s ease-in-out;
+transition: opacity 1s ease-in-out;
+}
+.pics img:nth-of-type(2):hover{
+opacity:0;
+}
+.pics2 img {
+position: absolute;
+margin-left: 38%;
+/* CSS3淡出淡入效果,1秒 */
+-webkit-transition: opacity 1s ease-in-out;
+-moz-transition: opacity 1s ease-in-out;
+-o-transition: opacity 1s ease-in-out;
+transition: opacity 1s ease-in-out;
+}
+.pics2 img:nth-of-type(2):hover{
+opacity:0;
+}
+.pics3 img {
+position: absolute;
+margin-left: 68%;
+/* CSS3淡出淡入效果,1秒 */
+-webkit-transition: opacity 1s ease-in-out;
+-moz-transition: opacity 1s ease-in-out;
+-o-transition: opacity 1s ease-in-out;
+transition: opacity 1s ease-in-out;
+}
+.pics3 img:nth-of-type(2):hover{
+opacity:0;
+}
+h1{
+margin: 0px;
+padding: 1%;
+background-color: white;
+}
+a.menu{
+text-decoration: none;
+color: black;
+font-size: 120%;
+margin: 0% 1% 0% 5%;
+padding: 1%;
+}
+div.partA{
+background-color: white;
+padding-top: 1%;
+padding-bottom: 1%;
+}
+.menu:hover{
+background-color: #FFE5B5;
+}
+img.menu{
+margin-right: 3%;
+}
+input.search{
+border-radius: 20%;
+margin-left: 10%;
+width: 10%;
+}
+img.t1{
+position: relative;
+top: 50%;
+left:0px;
+margin-top: 5%;
+}
+img.t2{
+position: absolute;
+top: 68.5%;
+left:0px;
+}
+marquee{
+margin-left: 12%;
+margin-right: 12%;
+}
+div.partB{
+margin-top: 0%;
+padding-top: 0%;
+}
+h1.hots{
+font-size: 200%;
+margin-left: 4%;
+font-family: cursive;
+}
+img.hotsp{
+margin-left: 6%;
+}
+h2{
+font-family: cursive;
+}
+input.SN{
+background-color: #E0E0E0;
+margin-left: 45%;
+padding: 1%;
+font-size: 140%;
+border-radius: 20%;
+box-shadow: 3px 5px gray;
+font-family: cursive;
+}
+.SN:hover{
+font-size: 150%;
+}
+img.teams{
+width: 50%;
+margin-left: 25%;
+padding: 5% 0px;
+}
+span.june{
+font-family: fantasy;
+margin-left: 20%;
+font-size: 200%;
+position: absolute;
+top: 320%;
+left: 50%;
+}
+div.partY{
+padding-left: 12%;
+margin-bottom: 0px;
+}
+img.partC{
+margin-top: 6%;
+}
+.partC:hover{
+width: 30%;
+transition-duration: 0.5s;
+}
+.partCC:hover{
+width: 30%;
+transition-duration: 0.5s;
+}
+span.partD{
+margin-left: 35%;
+font-size: 150%;
+font-family: fantasy;
+}
+.coverflow{
+width: 760px;
+height: 490px;
+padding-bottom:16.6%;
+position: relative;
+margin-left: 49.9%;
+}
+.coverflow>a{
+display: block;
+position: absolute;
+top:0;
+left:0;
+opacity: 0;
+filter: alpha(opacity=0);
+/*當圖片數量增加，影片長度需更改，變為5s*圖片數量*/
+-webkit-animation: silder 9s linear infinite;
+animation: silder 9s linear infinite;
+}
+.coverflow>a>img{
+max-width: 100%;
+}
+/*動畫關鍵影格*/
+@-webkit-keyframes silder {
+3% {
+opacity: 1;
+filter: alpha(opacity=100);
+}
+27% {
+opacity: 1;
+filter: alpha(opacity=100);
+}
+30% {
+opacity: 0;
+filter: alpha(opacity=0);
+}
+}
+@keyframes silder {
+3% {
+opacity: 1;
+filter: alpha(opacity=100);
+}
+27% {
+opacity: 1;
+filter: alpha(opacity=100);
+}
+30% {
+opacity: 0;
+filter: alpha(opacity=0);
+}
+}
+/*每個圖片各延遲5秒*/
+.coverflow>a:nth-child(3) {
+-webkit-animation-delay: 6s;
+animation-delay: 6s;
+}
+.coverflow>a:nth-child(2) {
+-webkit-animation-delay: 3s;
+animation-delay: 3s;
+}
+.coverflow>a:nth-child(1) {
+-webkit-animation-delay: 0s;
+animation-delay: 0s;
+}
+/*滑入時停止播放*/
+.coverflow:hover>a{
+-webkit-animation-play-state: paused;
+animation-play-state: paused;
+}
+.coverflow2{
+width: 50%;
+position: relative;
+margin-left: 25%;
+}
+.coverflow2>a{
+display: block;
+position: absolute;
+top:0;
+left:0;
+opacity: 0;
+filter: alpha(opacity=0);
+/*當圖片數量增加，影片長度需更改，變為5s*圖片數量*/
+-webkit-animation: silder 7.5s linear infinite;
+animation: silder 7.5s linear infinite;
+}
+.coverflow2>a>img{
+max-width: 100%;
+}
+/*每個圖片各延遲5秒*/
+.coverflow2>a:nth-child(3) {
+-webkit-animation-delay: 6s;
+animation-delay: 5s;
+}
+.coverflow2>a:nth-child(2) {
+-webkit-animation-delay: 3s;
+animation-delay: 2.5s;
+}
+.coverflow2>a:nth-child(1) {
+-webkit-animation-delay: 0s;
+animation-delay: 0s;
+}
+/*滑入時停止播放*/
+.coverflow2:hover>a{
+-webkit-animation-play-state: paused;
+animation-play-state: paused;
+}
+img.aa:hover{
+-moz-transform:rotate(-10deg);
+-webkit-transform:rotate(-10deg);
+}

@@ -1,0 +1,68 @@
+.part1{
+	margin: 3% 18% 1% 18%;
+	background-color: white;
+	padding: 2% 5%;
+}
+.part2{
+	margin: 1% 18% 1% 18%;
+	background-color: white;
+	padding: 2% 5%;
+}
+.part3{
+	margin: 1% 18% 0px 18%;
+	background-color: white;
+	padding: 2% 5%;
+}
+.part4{
+	margin: 1% 18% 0px 18%;
+	background-color: white;
+	padding: 2% 5%;
+}
+.part5{
+ 	margin: 1% 18% 0px 20%;
+	background-color:#F5F5F5;
+	padding: 2% 5%;
+}
+button.btn1{
+	padding: 1% 2%;
+	border-radius: 5px;
+	margin-left: 85%;
+}
+.btn1:hover{
+	background-color: #FF7878;
+	color: white;
+}
+button.btn2{
+	padding: 1% 2%;
+	border-radius: 5px;
+	margin-left: 85%;
+}
+.btn2:hover{
+	background-color: #FF7878;
+	color: white;
+}
+button.hope{
+	padding: 2% 10%;
+	border-radius: 5px;
+	margin-left: 35%;
+}
+button.comment{
+	padding: 2% 10%;
+	border-radius: 5px;
+	margin-left: 45%;
+}
+button.hope:hover{
+	background-color: #FF7878;
+}
+button.comment:hover{
+	background-color: #FF7878;
+}
+table{
+	width: 100%;
+}
+button.manager{
+	padding: 2% 4%;
+	border-radius: 15px;
+	margin-left: 40%;
+}
+

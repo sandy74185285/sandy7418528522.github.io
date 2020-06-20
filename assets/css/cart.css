@@ -1,0 +1,76 @@
+#tit{
+text-align: center;
+}
+a.titletxt{             /*Step 2 填寫收件資料 Step 3 購買成功*/
+text-decoration: none;
+color: black;
+font-size: 120%;
+padding: 1% 1% 1% 1%;
+margin: 1% 5% 1% 4%;
+}
+.titletxt:hover{       /*Step 2 填寫收件資料 Step 3 購買成功特效*/
+font-weight: bold;
+}
+a.titlestep2{ 
+background-color:#FFE4E1;
+border-radius: 15%;            /*Step 1確認購物清單 */
+text-decoration: none;
+color: black;
+font-size: 150%;
+padding: 1% 1% 1% 1%;
+margin: 1% 5% 1% 4%;
+}
+.titlestep2:hover{       /*Step 1 填寫收件資料特效*/
+background-color:	#FFE4E1;
+border-radius: 15%;
+font-weight: bolder;
+}
+.shoptit{               /*div包購物車圖示整列*/
+position: relative;
+margin: 1% 10% 2% 20%;
+}
+.shopcar{               /*購物車字體*/
+font-size: 150%;
+margin: 1% 35% 1% 1%;
+}
+.con{                   /*金額數量收藏刪除*/
+font-size: 130%;
+margin: 1%;
+}
+.checkitem{               /*item*/
+position: relative;
+margin: 2% 0% 2% 20%;
+}
+.sumtxt{                      /*總金額字體*/
+font-size: 150%;
+position: relative;
+margin: 2% 0% 2% 50%;
+}
+.butdown1{                   /*全部刪除*/
+font-family: :"微軟正黑體";
+font-size: 90%;
+position: relative;
+left:60%;
+background-color: #FFE4E1;
+padding: 0.5%;
+border-radius: 20%;
+}
+.butdown1:hover{            /*全部刪除特效*/
+color: #6B5152;
+font-size: 100%;
+font-weight: bold;
+}
+.butdown2{                   /*確認購買*/
+font-family: :"微軟正黑體";
+font-size: 90%;
+position: relative;
+left:65%;
+background-color: #FFE4E1;
+padding: 0.5%;
+border-radius: 20%;
+}
+.butdown2:hover{             /*確認購買特效*/
+color: #6B5152;
+font-size: 100%;
+font-weight: bold;
+}

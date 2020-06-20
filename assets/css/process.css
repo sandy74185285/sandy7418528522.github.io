@@ -1,0 +1,176 @@
+@font-face{
+font-family:"華康翩翩體";
+src:url(../font/華康翩翩體.otf);
+}
+body{
+	background-image: url(../images/poppp.png);
+	background-repeat:no-repeat;
+	background-size: 100%;
+	margin: 0px;
+	bottom: 0px;
+}
+.menu:hover{
+	background-color:#f0ebe5;
+}
+#part1{
+margin-top:5%;
+}
+#part2{
+margin-top: 5%;
+}
+#part3{
+margin-top: 7%;
+}
+#part4{
+margin-top: 7%;
+}
+#part5{
+margin-top:6%;
+}
+#part6{
+margin-top:7%;
+}
+#part7{
+margin-top:6%;
+}
+.p1{
+position: relative;
+left:14%;
+border-radius: 20px;
+box-shadow: 5px 5px 15px gray;
+}
+table.step1{
+background-color: white;
+position: absolute;
+left: 49%;
+top: 40%;
+font-size: 140%;
+padding: 7% 5%;
+border-style: solid;
+border-width: 5px;
+border-color: 	#B56357;
+border-left-width: 0px;
+font-family:華康翩翩體;
+box-shadow: 5px 5px 15px #B56357;
+}
+table.step2{
+background-color: white;
+position: absolute;
+left: 14%;
+top: 100%;
+font-size: 140%;
+padding: 6.5% 5%;
+border-style: solid;
+border-width: 5px;
+border-color: #FF9900;
+border-right-width: 0px;
+font-family:華康翩翩體;
+box-shadow: 5px 5px 15px #FF9900;
+}
+.p2{
+position: relative;
+left:50%;
+margin-top: 2%;
+border-radius: 20px;
+box-shadow: 5px 5px 15px gray;
+}
+.p3{
+position: relative;
+left:14%;
+border-radius: 20px;
+box-shadow: 5px 5px 15px gray;
+}
+table.step3{
+background-color: white;
+position: absolute;
+left: 49%;
+top: 163%;
+font-size: 140%;
+padding: 7% 5%;
+border-style: solid;
+border-width: 5px;
+border-color:	#FFD700;
+border-left-width: 0px;
+font-family:華康翩翩體;
+box-shadow: 5px 5px 15px #FFD700;
+}
+table.step4{
+background-color: white;
+position: absolute;
+left: 11%;
+top: 225%;
+font-size: 140%;
+padding: 4% 5%;
+border-style: solid;
+border-width: 5px;
+border-color: 	#556B2F;
+border-right-width: 0px;
+font-family:華康翩翩體;
+box-shadow: 5px 5px 15px #556B2F;
+}
+.p4{
+position: relative;
+left:51%;
+border-radius: 20px;
+box-shadow: 5px 5px 15px gray;
+}
+.p5{
+position: relative;
+left:11%;
+border-radius: 20px;
+box-shadow: 5px 5px 15px gray;
+}
+table.step5{
+background-color: white;
+position: absolute;
+left: 46%;
+top: 291%;
+font-size: 140%;
+padding: 4% 5%;
+border-style: solid;
+border-width: 5px;
+border-color: #006374;
+border-left-width: 0px;
+font-family:華康翩翩體;
+box-shadow: 5px 5px 15px #006374;
+}
+.p6{
+position: relative;
+left:49.5%;
+border-radius: 20px;
+box-shadow: 5px 5px 15px gray;
+}
+table.step6{
+background-color: white;
+position: absolute;
+left: 12.5%;
+top: 350%;
+font-size: 140%;
+padding: 5% 5%;
+border-style: solid;
+border-width: 5px;
+border-color: #4B0080;
+border-right-width: 0px;
+font-family:華康翩翩體;
+box-shadow: 5px 5px 15px #4B0080;
+}
+.p7{
+position: relative;
+left:15%;
+border-radius: 20px;
+box-shadow: 5px 5px 15px gray;
+}
+table.step7{
+background-color: white;
+position: absolute;
+margin-left: 50%;
+top: 410%;
+font-size: 140%;
+padding: 6% 5%;
+border-style: solid;
+border-width: 5px;
+border-color: 	#800080;
+border-left-width: 0px;
+font-family:華康翩翩體;
+box-shadow: 5px 5px 15px #800080;
+}
